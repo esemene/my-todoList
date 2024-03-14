@@ -1,0 +1,48 @@
+*/{
+    margin: 0%;
+    padding: 0%;
+}
+
+main{
+    background-color: blue;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo{
+    background-color: blueviolet;
+    width: 40%;
+    height: 55%;
+    border-radius: 7px;
+}
+
+
+h2{
+   font-size: 200%;
+   font-weight: bold;
+}
+
+#myinput{
+    width: 90%;
+    height: 15%;
+}
+
+ul li{
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+}
+
+li{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+
+}
+
